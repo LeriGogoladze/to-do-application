@@ -4,7 +4,6 @@ from utils import generate_unique_id
 from csv_writer import save_tasks_to_csv, load_tasks_from_csv
 
 class ToDoApp:  
-
     def __init__(self): 
         self.tasks = []
         self.load_tasks()
