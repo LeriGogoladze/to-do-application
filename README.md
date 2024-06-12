@@ -1,4 +1,4 @@
-# to-do- lis application
+# to-do- list application
 This repo contains demo code for the TBC Academy's "intro to python" course's final project
 
 A Python-based To-Do List application with task creation, updating, sorting, and deletion functionalities, along with task persistence using CSV file storage. The application follows object-oriented programming (OOP) principles and is modularized for better code organization.
