@@ -13,11 +13,11 @@ A Python-based To-Do List application with task creation, updating, sorting, and
 
 ## Project Structure
 
-├── task.py # Task and StartDateDueDateTask class definitions
-├── csv_writer.py # Functions for saving and loading tasks from CSV file
-├── todo_app.py # ToDoApp class with task management methods
-├── main.py # Entry point for running the application
-├── tasks.csv # CSV file for storing tasks (generated at runtime)
-└── README.md # Project documentation
+- task.py # Task and StartDateDueDateTask class definitions
+- csv_writer.py # Functions for saving and loading tasks from CSV file
+- todo_app.py # ToDoApp class with task management methods
+- main.py # Entry point for running the application
+- tasks.csv # CSV file for storing tasks (generated at runtime)
+- README.md # Project documentation
 
 
