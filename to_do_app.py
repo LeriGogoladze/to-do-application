@@ -37,7 +37,7 @@ class ToDoApp:
                 print("Invalid due date format. Please try again.")
                 return
         
-        # დავალების ობიექტის ინიციალიცავია.სულ 2 სახის დავალებაა. დავალება დაწყება-დასრულების ვადებით და დავალება ამ ვადების გარეშე
+        # დავალების ობიექტის ინიციალიზაცია.სულ 2 სახის დავალებაა. დავალება დაწყება-დასრულების ვადებით და დავალება ამ ვადების გარეშე
         if has_start_date:
             new_task = StartDateDueDateTask(description,start_date,due_date)
             new_task.task_id = generate_unique_id(self.tasks)
