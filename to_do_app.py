@@ -185,7 +185,7 @@ class ToDoApp:
             for task in self.tasks:
                 self.display_task(task,"Task Details :")        
         else:
-            task_id = input("Enter task ID o :")
+            task_id = input("Enter task ID:")
             found_task = self.find_task_by_id(task_id)
             if not found_task:
                 print(f"Task with ID '{task_id}' not found.")
